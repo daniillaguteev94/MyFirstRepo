@@ -1,5 +1,5 @@
 const title = 'lending';
-let screens = "Простые,Сложные,Интерактивные";
+let screens = "Простые, Сложные, Интерактивные";
 const screenPrice = 24;
 const rollback = 71;
 const fullPrice = 500;
@@ -9,7 +9,8 @@ console.log(typeof title);
 console.log(typeof adaptive);
 console.log(typeof fullPrice);
 
-console.log(screens.length ,screens = screens.toLowerCase() ,screens.split(/[.,!,?]/ ,3));
+console.log(screens.length ,screens = screens.toLowerCase() ,screens.split(/[.,]/));
+
 
 
 console.log('Стоимость верстки экранов ' + screenPrice + ' рубля ');
