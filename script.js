@@ -9,7 +9,7 @@ console.log(typeof title);
 console.log(typeof adaptive);
 console.log(typeof fullPrice);
 
-console.log(screens.length ,screens.toLowerCase() ,screens.split('-' ,3));
+console.log(screens.length ,screens = screens.toLowerCase() ,screens.split(" " ,3));
 
 
 console.log('Стоимость верстки экранов ' + screenPrice + ' рубля ');
